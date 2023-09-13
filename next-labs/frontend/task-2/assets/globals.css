@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-family: "Spinnaker";
+}
+
+#end {
+    text-align: center;
+    background-color: rgb(98, 0, 234);
+}
