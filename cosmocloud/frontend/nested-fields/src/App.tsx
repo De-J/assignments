@@ -1,11 +1,11 @@
 import './App.css'
-import Form from './components/Field';
+import SchemaBuilder from './components/SchemaBuilder';
 
 function App() {
   return (
     <>
       <main>
-        <Form />
+        <SchemaBuilder />
       </main>
     </>
   )
