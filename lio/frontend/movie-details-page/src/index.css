@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .backdrop {
+    flex-direction: column;
+  }
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: white;
+  background-color: #04152d;
+}
+
+.info span,
+p,
+hr {
+  opacity: 0.4;
+}
+
+li {
+  margin: 0 0.2rem 0 0;
+}
+
+span {
+  white-space: nowrap;
+  margin: 0.3rem;
+}
+
+.backdrop:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.04;
+  background-image: url("https://resizing.flixster.com/ZQFb2Ln3STDuhjaIRcUnYxwU82Q=/206x305/v2/https://flxt.tmsimg.com/assets/p162564_p_v8_ag.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  z-index: -1;
+
+  /* background-image: url("https://resizing.flixster.com/ZQFb2Ln3STDuhjaIRcUnYxwU82Q=/206x305/v2/https://flxt.tmsimg.com/assets/p162564_p_v8_ag.jpg"); */
+}
+
+.slick-slide {
+  margin: 0 0;
+}
+
+.slick-prev {
+  left: -4.2% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0% !important;
+  z-index: 1;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
